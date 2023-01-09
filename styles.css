@@ -1,20 +1,22 @@
-.main-title {
+body { 
+    color: black;
     font-family: 'Cormorant Garamond', serif;
+}
+    
+    
+h1 {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
-}
-
-.main-title, .recipe-links {
     color: black;
 }
 
 .recipe-links {
     font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
     text-align: center;
     justify-content: space-around;
     padding: 90px;
-    font-size: 20px;
     text-decoration: none;
 }
 
@@ -32,6 +34,13 @@
 .image-container {
     text-align: center;
 }
+
+.food-img {
+    height: auto;
+    width: 400px;
+}
+
+
 
 
 
