@@ -11,6 +11,10 @@ h1 {
     color: black;
 }
 
+h3 {
+  font-size: 20px;
+}
+
 .recipe-links {
     font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
@@ -35,10 +39,33 @@ h1 {
     text-align: center;
 }
 
+.description-container {
+    display: flex;
+    padding-top: 40px;
+}
+
+.description-container, .body-contents {
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 18px;
+}
+
 .food-img {
     height: auto;
     width: 400px;
+    padding-right: 50px;
 }
+
+.body-contents {
+    display: flex;
+    padding-top: 50px;
+    line-height: 30px;
+}
+
+.ingredients {
+    padding-right: 100px;
+}
+
 
 
 
