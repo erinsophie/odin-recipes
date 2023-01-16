@@ -44,15 +44,19 @@ a:hover {
     text-align: center;
 }
 
-.description-container {
-    display: flex;
-    padding-top: 40px;
-}
+
 
 .description-container, .body-contents {
-    padding-left: 200px;
-    padding-right: 200px;
-    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    width: 70%;
+    margin: auto;
+    border: 1px solid red;
+}
+
+.ingredients {
+    
 }
 
 .food-img {
@@ -67,9 +71,7 @@ a:hover {
     line-height: 30px;
 }
 
-.ingredients {
-    padding-right: 100px;
-}
+
 
 
 
